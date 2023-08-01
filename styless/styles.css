@@ -3,6 +3,7 @@
     --color-orange-btn: #FF6C01;
     --color-green-btn: #00D008;
     --color-bg: #ECECEC;
+    --color-fs: #999999;
 }
 
 body {
@@ -13,10 +14,14 @@ header {
     background-color: #FFFFFF;
 }
 
+.color-fs {
+    color: var(--color-fs);
+}
+
 .custom-color-orange {
     background-color: var(--color-orange-btn);
 }
-.custom-color-orange:hover {
+.custom-color-orange:hover, .custom-color-orange:active {
     background-color: #d95b00;
 }
 
